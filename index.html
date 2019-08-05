@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="ZARA產品介紹">
+	<meta property="og:site_name" content="ZARA WEB">
+	<meta property="og:description" content="ZARA網上最新女性，男性和兒童服裝趨勢。 每週查找新到貨，時尚目錄，收藏品和外觀。">
+	<meta name="description" content="ZARA網上最新女性，男性和兒童服裝趨勢。 每週查找新到貨，時尚目錄，收藏品和外觀。">
+	<meta name="keywords" content="女裝、男裝、童裝、時尚">
+	<title>ZARA WEB</title>
+	<!-- 網站標題小縮圖 -->
+	<link rel="icon" href="images/favicon1.ico">
+	<!-- 換圖輪播套件 -->
+	<link rel="stylesheet" href="css/camera.css">
+	<!-- icon font的css -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<!-- 點圖放大套件的CSS -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- 自己寫的CSS, 一定要在最下面 -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- header>(nav>ul>li.btn_$*5>a[href="#"])+div#banner -->
+	<header>
+		<nav>
+			<ul>
+				<li class="btn_1"><a href="#">HOME</a></li>
+				<li class="btn_2"><a href="#">ABOUT US</a></li>
+				<li class="btn_3">
+					<a href="#newbox">NEW</a>
+					<!-- div>a[href="#"]*3 -->
+					<div>
+						<a href="#">NEW01</a>
+						<a href="#">NEW02</a>
+						<a href="#">NEW03</a>
+					</div>
+				</li>
+				<li class="btn_4">
+					<a href="#hotbox">HOT</a>
+					<div>
+						<a href="#">HOT01</a>
+						<a href="#">HOT02</a>
+						<a href="#">HOT03</a>
+					</div>
+				</li>
+				<li class="btn_5"><a href="#">CONTACT US</a></li>
+			</ul>
+		</nav>
+		<div id="banner">
+			<!-- 桌機版 -->
+			<div class="camera_wrap camera_azure_skin" id="camera">
+				<!-- 第1張相片 -->
+	            <div data-thumb="images/thumbs/slide01_s.jpg" data-src="images/slide01.jpg"></div>
+	            <!-- 第2張相片 -->
+	            <div data-thumb="images/thumbs/slide02_s.jpg" data-src="images/slide02.jpg"></div>
+	            <!-- 第3張相片 -->
+	            <div data-thumb="images/thumbs/slide03_s.jpg" data-src="images/slide03.jpg"></div>
+	            <!-- 第4張相片 -->
+	            <div data-thumb="images/thumbs/slide04_s.jpg" data-src="images/slide04.jpg"></div>
+        	</div>	
+		
+			<!-- 手機版 -->
+			<div class="camera_wrap camera_azure_skin" id="camera_md">
+				<!-- 第1張相片 -->
+	            <div data-src="images/slide01_md.jpg"></div>
+	            <!-- 第2張相片 -->
+	            <div data-src="images/slide02_md.jpg"></div>
+	            <!-- 第3張相片 -->
+	            <div data-src="images/slide03_md.jpg"></div>
+	            <!-- 第4張相片 -->
+	            <div data-src="images/slide04_md.jpg"></div>
+	    	</div>	
+		</div>
+	</header>
+	<!-- main>div.title+section>figure*8>figcaption -->
+	<main>
+		<div id="newbox" class="title">
+			<i class="fas fa-hat-wizard"></i>
+			<h2>最新商品</h2>
+			<h3>NEW ARRIVAL</h3>
+		</div>
+		<section id="new">
+			<figure rel="new" href="images/img01.jpg" title="new相片1">
+				<img src="images/img01.jpg" alt="">
+				<figcaption>相片一</figcaption>
+			</figure>
+			<figure rel="new" href="images/img02.jpg" title="new相片2">
+				<img src="images/img02.jpg" alt="">
+				<figcaption>相片二</figcaption>
+			</figure>
+			<figure rel="new" href="images/img03.jpg" title="new相片3">
+				<img src="images/img03.jpg" alt="">
+				<figcaption>相片三</figcaption>
+			</figure>
+			<figure rel="new" href="images/img04.jpg" title="new相片4">
+				<img src="images/img04.jpg" alt="">
+				<figcaption>相片四</figcaption>
+			</figure>
+			<figure rel="new" href="images/img05.jpg" title="new相片5">
+				<img src="images/img05.jpg" alt="">
+				<figcaption>相片五</figcaption>
+			</figure>
+			<figure rel="new" href="images/img06.jpg" title="new相片6">
+				<img src="images/img06.jpg" alt="">
+				<figcaption>相片六</figcaption>
+			</figure>
+			<figure rel="new" href="images/img07.jpg" title="new相片7">
+				<img src="images/img07.jpg" alt="">
+				<figcaption>相片七</figcaption>
+			</figure>
+			<figure rel="new" href="images/img08.jpg" title="new相片8">
+				<img src="images/img08.jpg" alt="">
+				<figcaption>相片八</figcaption>
+			</figure>
+			<figure rel="new" href="images/img09.jpg" title="new相片9">
+				<img src="images/img09.jpg" alt="">
+				<figcaption>相片九</figcaption>
+			</figure>
+			<figure rel="new" href="images/img10.jpg" title="new相片10">
+				<img src="images/img10.jpg" alt="">
+				<figcaption>相片十</figcaption>
+			</figure>
+		</section>
+		<div id="hotbox" class="title">
+			<i class="fas fa-hat-wizard"></i>
+			<h2>熱門商品</h2>
+			<h3>HOT ARRIVAL</h3>
+		</div>
+		<section id="hot">
+			<figure rel="hot" href="images/img01.jpg" title="hot相片1">
+				<img src="images/img01.jpg" alt="">
+				<figcaption>相片一</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img02.jpg" title="hot相片2">
+				<img src="images/img02.jpg" alt="">
+				<figcaption>相片二</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img03.jpg" title="hot相片3">
+				<img src="images/img03.jpg" alt="">
+				<figcaption>相片三</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img04.jpg" title="hot相片4">
+				<img src="images/img04.jpg" alt="">
+				<figcaption>相片四</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img05.jpg" title="hot相片5">
+				<img src="images/img05.jpg" alt="">
+				<figcaption>相片五</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img06.jpg" title="hot相片6">
+				<img src="images/img06.jpg" alt="">
+				<figcaption>相片六</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img07.jpg" title="hot相片7">
+				<img src="images/img07.jpg" alt="">
+				<figcaption>相片七</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img08.jpg" title="hot相片8">
+				<img src="images/img08.jpg" alt="">
+				<figcaption>相片八</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img09.jpg" title="hot相片9">
+				<img src="images/img09.jpg" alt="">
+				<figcaption>相片九</figcaption>
+			</figure>
+			<figure rel="hot" href="images/img10.jpg" title="hot相片10">
+				<img src="images/img10.jpg" alt="">
+				<figcaption>相片十</figcaption>
+			</figure>
+		</section>
+	</main>
+
+	<div id="gotop">
+	  <svg version="1.1" id="arrowUp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+		<g id="XMLID_5_">
+			<path id="XMLID_3_" class="st0" d="M4.8,35.3l2,2c0.7,0.7,1.5,1,2.5,1c1,0,1.8-0.3,2.5-1L25,24.1l13.2,13.2c0.7,0.7,1.5,1,2.5,1
+			c0.9,0,1.8-0.3,2.5-1l2-2c0.7-0.7,1-1.5,1-2.5c0-1-0.3-1.8-1-2.5L27.5,12.7c-0.7-0.7-1.5-1-2.5-1c-1,0-1.8,0.3-2.5,1L4.8,30.4
+			c-0.7,0.7-1,1.5-1,2.5C3.8,33.8,4.1,34.6,4.8,35.3L4.8,35.3z M4.8,35.3"/>
+		</g>
+	  </svg>
+	</div>
+	<footer>2018 ZARA &copy; COPYRIGHT.</footer>
+  <!-- jQuery原始檔 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		  crossorigin="anonymous"></script>
+  <!--  jQuery Mobile框架(樣式) -->
+  <script src="js/jquery.mobile.customized.min.js"></script>
+  <!-- jQuery Easing 外掛 指定動畫速度效果 -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- 換圖輪播套件 -->
+  <script src="js/camera.min.js"></script>
+  <!-- 點圖放大套件 -->
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <!-- 自己寫的JS -->
+  <script src="js/myScript.js"></script>
+</body>
+</html>
